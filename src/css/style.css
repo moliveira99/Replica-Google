@@ -1,0 +1,214 @@
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background: #202124;
+}
+
+.google {
+    display: flex;
+    align-items: center;
+    width: 16rem;
+    padding: 16rem 9rem 32rem 8rem; 
+}
+
+.search,
+.button,
+.luck,
+.profile,
+.grid,
+.camera,
+.glass
+ {
+    position: absolute;
+}
+
+.search {
+    width: 32rem;
+    height: 3rem;
+    top: 26rem;
+    border-radius: 10rem;
+    background-color: #202124;
+    padding-left: 3rem;
+    color: #ffffff;
+    border: 0.15rem solid #474a4e;
+}
+
+.search:hover, .search:focus {
+    background-color: #303134;
+    border: 0;
+}
+
+.button {
+    width: 8rem;
+    height: 2.5rem;
+    border-radius: 0.8rem;
+    color: #ffffff;
+    background-color: #303134;
+    border: 0;
+    top: 31rem;
+    left: 50.5rem;
+}
+
+.button:hover {
+    border: 0.15rem solid #474a4e;
+}
+
+.luck {
+    width: 8rem;
+    height: 2.5rem;
+    border-radius: 0.8rem;
+    color: #ffffff;
+    background-color: #303134;
+    border: 0;
+    top: 31rem;
+    left: 60.5rem;
+}
+
+.luck:hover {
+    border: 0.15rem solid #474a4e;
+}
+
+.profile {
+    width: 2.4rem;
+    border-radius: 2rem;
+    top: 2rem;
+    right: 1rem;
+    background-color: #a1c3ff;
+    transition: box-shadow 0.3s;
+}
+
+.profile:hover {
+    box-shadow: 0 0 0 0.3rem #ffffff4d;
+}
+
+.grid {
+    width: 2rem;
+    top: 2.25rem;
+    right: 4.6rem;
+    transition: box-shadow 0.3s;
+    border-radius: 0.5rem;
+}
+
+.grid:hover {
+    box-shadow: 0 0 0 0.3rem #ffffff4d;
+    border-radius: 0.5rem;
+}
+
+.camera {
+    width: 2rem;
+    top: 26.5rem;
+    right: 44.3rem;
+    z-index: 1;
+}
+
+.glass {
+    width: 2rem;
+    top: 26.5rem;
+    left: 44.3rem;
+    z-index: 1;
+}
+
+@media (min-width: 375px) {
+    .search {
+        width: 20rem;
+    }
+
+    .google {
+        padding: 18rem 9rem 32rem 2.7rem; 
+    }
+    
+    .camera {
+        right: 18.4rem;
+    }
+    
+    .glass {
+        left: 18.4rem;
+    }
+
+    .button {
+        left: 2rem;
+    }
+    
+    .luck {
+        left: 12.5rem;
+    }
+}
+
+@media (min-width: 960px){
+    .search {
+        width: 30rem;
+    }
+
+    .google {
+        padding: 0rem 4rem 45rem 3rem; 
+    }
+    
+    .camera {
+        right: 17.2rem;
+    }
+    
+    .glass {
+        left: 17.2rem;
+    }
+
+    .button {
+        left: 22rem;
+    }
+    
+    .luck {
+        left: 32.5rem;
+    }
+}
+
+@media (min-width: 1000px){
+    .search {
+        width: 30rem;
+    }
+
+    .google {
+        padding: 0rem 4rem 15rem 3rem; 
+    }
+    
+    .camera {
+        right: 16.5rem;
+    }
+    
+    .glass {
+        left: 16.5rem;
+    }
+
+    .button {
+        left: 22rem;
+    }
+    
+    .luck {
+        left: 32rem;
+    }
+}
+
+@media (min-width: 1280px){
+    .search {
+        width: 30rem;
+    }
+
+    .google {
+        padding: 0rem 4rem 30rem 3rem; 
+    }
+    
+    .camera {
+        right: 45.2rem;
+    }
+    
+    .glass {
+        left: 45.2rem;
+    }
+
+    .button {
+        left: 51rem;
+    }
+    
+    .luck {
+        left: 60rem;
+    }
+}
